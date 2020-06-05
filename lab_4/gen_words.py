@@ -8,7 +8,7 @@ def isWordAlpha(word):
             return False
     return True
 
-
+    
 def create(input_fn, output_fn, dict_fn):
     with open(input_fn, 'r') as input, \
             open(output_fn, 'w') as output, \
